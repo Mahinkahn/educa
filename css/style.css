@@ -35,13 +35,15 @@ body {
 }
 
 /* ----------- course end ---------------- */
-
+/* --------------- Explore The elearning ---------------- */
 .card-title,
 .card-text,
 .col-md-8 {
     color: #4A4A4A;
     background-color: #F4FAFD;
 }
+
+/* -------------------- Explore The elearning end ------------------------- */
 
 /* -------------- Register Now start ------------------------------  */
 .singup-area .singup {
