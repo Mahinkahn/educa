@@ -7,6 +7,7 @@ body {
 
 }
 
+/* -------------- course start  --------------- */
 .courses {
     margin-top: 50px;
     display: grid;
@@ -31,4 +32,13 @@ body {
     font-weight: 600;
     font-size: 22px;
     line-height: 30px;
+}
+
+/* ----------- course end ---------------- */
+
+.card-title,
+.card-text,
+.col-md-8 {
+    color: #4A4A4A;
+    background-color: #F4FAFD;
 }
