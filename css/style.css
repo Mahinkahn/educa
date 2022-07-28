@@ -42,3 +42,31 @@ body {
     color: #4A4A4A;
     background-color: #F4FAFD;
 }
+
+/* -------------- Register Now start ------------------------------  */
+.singup-area .singup {
+    background-color: #289BDE;
+    padding: 80px 100px;
+    border-radius: 10px;
+}
+
+.common-btn2 {
+    color: #289BDE;
+    border: 1px solid #289BDE;
+    border-radius: 6px;
+    padding: 10px 25px;
+    background-color: #fff;
+    transition: all .3s;
+    text-decoration: none;
+}
+
+.common-btn2:hover {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    padding: 10px 25px;
+    background-color: #289BDE;
+    text-decoration: none;
+}
+
+/* -------------- Register Now end ---------------- */
