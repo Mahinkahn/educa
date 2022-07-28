@@ -7,13 +7,61 @@ body {
 
 }
 
+/* slider start */
+.carousel-caption {
+    right: 0;
+    bottom: 0;
+    top: 38%;
+    left: 0%;
+}
+
+/* slider end  */
+
 /* -------------- course start  --------------- */
+
+.course-area {
+    padding: 65px 0;
+}
+
+.course-area h2 {
+    font-weight: 600;
+    font-weight: 45px;
+    color: #000;
+}
+
 .courses {
     margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 30px;
     column-gap: 30px;
+}
+
+.single-course {
+    cursor: pointer;
+}
+
+.single-course h3 {
+    color: #4A4A4A;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+h3 {
+    font-size: 45px;
+    color: #1D1D1D;
+    line-height: 60px;
+}
+
+.single-course p {
+    color: #777777;
+    font-weight: normal;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
 }
 
 .single-course .course-price {
@@ -23,15 +71,18 @@ body {
     line-height: 27px;
 }
 
-.card-title {
-    margin-bottom: 0.5rem;
+.common-btn {
+    color: #fff;
+    border: 1px solid #289BDE;
+    border-radius: 6px;
+    padding: 10px 25px;
+    background-color: #289BDE;
+    transition: all .3s;
 }
 
-.single-course h4 {
-    color: #4A4A4A;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 30px;
+a {
+    text-decoration: none;
+    color: #000;
 }
 
 /* ----------- course end ---------------- */
@@ -72,6 +123,12 @@ body {
 }
 
 /* -------------- Register Now end ---------------- */
+
+.faq-area .faq {
+    max-width: 880px;
+    margin: auto;
+    margin-top: 30px;
+}
 
 /* -------------- footer start ----------------- */
 .footer-area {
